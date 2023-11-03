@@ -12,6 +12,11 @@ namespace system_rh_csharp.Controllers
     {
         private readonly RHContext _context;
 
+        public FuncionarioController(RHContext context)
+        {
+            _context = context;
+        }
+
         [HttpGet("{id}")]
         public IActionResult ObterPorId(int id)
         {
