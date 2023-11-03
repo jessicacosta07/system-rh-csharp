@@ -13,3 +13,7 @@ obj/Debug/net7.0/system-rh-csharp.GlobalUsings.g.cs
 Properties/launchSettings.json
 appsettings.Development.json
 appsettings.json
+obj/system-rh-csharp.csproj.EntityFrameworkCore.targets
+obj/Debug/net7.0/system-rh-csharp.csproj.CoreCompileInputs.cache
+obj/Debug/net7.0/system-rh-csharp.csproj.FileListAbsolute.txt
+obj/Debug/net7.0/system-rh-csharp.MvcApplicationPartsAssemblyInfo.cache
