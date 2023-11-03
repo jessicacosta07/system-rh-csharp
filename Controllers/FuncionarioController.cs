@@ -31,7 +31,7 @@ namespace system_rh_csharp.Controllers
         [HttpPost]
         public IActionResult Criar(Funcionario funcionario)
         {
-            _context.Funcionarios.Add(funcionario);
+            _context.Add(funcionario);
             var funcionarioLog = new FuncionarioLog(funcionario, TipoAcao.Inclusao, funcionario.Departamento, Guid.NewGuid().ToString());
             return CreatedAtAction(nameof(ObterPorId), new { id = funcionario.Id }, funcionario);
         }
