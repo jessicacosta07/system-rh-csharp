@@ -60,6 +60,7 @@ namespace system_rh_csharp.Controllers
 
             if (funcionarioBanco == null)
                 return NotFound();
+
             _context.SaveChanges();
 
             var funcionarioLog = new FuncionarioLog(funcionarioBanco, TipoAcao.Remocao, funcionarioBanco.Departamento, Guid.NewGuid().ToString());
