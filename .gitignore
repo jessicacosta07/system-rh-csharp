@@ -1,0 +1,15 @@
+obj/project.assets.json
+obj/project.nuget.cache
+obj/system-rh-csharp.csproj.nuget.dgspec.json
+obj/system-rh-csharp.csproj.nuget.g.props
+obj/system-rh-csharp.csproj.nuget.g.targets
+obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+obj/Debug/net7.0/system-rh-csharp.AssemblyInfo.cs
+obj/Debug/net7.0/system-rh-csharp.AssemblyInfoInputs.cache
+obj/Debug/net7.0/system-rh-csharp.assets.cache
+obj/Debug/net7.0/system-rh-csharp.csproj.AssemblyReference.cache
+obj/Debug/net7.0/system-rh-csharp.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net7.0/system-rh-csharp.GlobalUsings.g.cs
+Properties/launchSettings.json
+appsettings.Development.json
+appsettings.json
